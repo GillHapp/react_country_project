@@ -33,6 +33,7 @@ button {
   letter-spacing: 0.1rem;
   line-height: 1.6;
   color: #fff;
+  text-decoration: none;
 }
 
 li {
@@ -72,6 +73,7 @@ button {
   -ms-border-radius: 1.5rem;
   -o-border-radius: 1.5rem;
   margin-top: 1.6rem;
+  text-decoration: none;
 }
 
 /* Layout  */
@@ -354,6 +356,7 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+
 .footer-section {
   background: #151414;
   position: relative;
@@ -363,22 +366,27 @@ ul {
   background: #202020;
   padding: 25px 0;
 }
+
 .copyright-text p {
   margin: 0;
   font-size: 14px;
   color: #878787;
 }
+
 .copyright-text p a {
   color: #3a4ed5;
   margin-left: 0.6rem;
 }
+
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
+
 .footer-menu li:hover a {
   color: #3a4ed5;
 }
+
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
@@ -391,8 +399,10 @@ country Card
 .country-card {
   margin-top: 3.2rem;
 }
+
 .country-section {
   margin: 6.4rem auto 9.6rem auto;
+
   & .grid {
     gap: 3.2rem;
     max-width: 132rem;
@@ -487,7 +497,7 @@ country Card
     }
   }
 
-  & .select-section > option {
+  & .select-section>option {
     background-color: #080509;
     color: rgba(255, 255, 255, 0.8);
     padding: 0.6rem 2.4rem;
@@ -514,6 +524,7 @@ contact us page
     border-color: rgba(255, 255, 255, 0.6);
   }
 }
+
 .contact-wrapper {
   display: flex;
   justify-content: center;
@@ -560,6 +571,7 @@ contact us Page ends here
 }
 
 @media screen and (max-width: 760px) {
+
   .grid-four-cols,
   .grid-three-cols,
   .grid-two-cols {
@@ -586,6 +598,7 @@ contact us Page ends here
   mask-composite: subtract;
   animation: l3 1s infinite linear;
 }
+
 @keyframes l3 {
   to {
     transform: rotate(1turn);
